@@ -1,0 +1,140 @@
+<html>
+
+<head>
+    <title>My First Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="My_Blog.html">
+                <img src="Images/me.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Ru's Blog
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-brand mb-0 h1">Navbar</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Feedback.html">Feedback</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search" style="text-align:right">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/B1.jpg" class="d-block w-100" alt="B1">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/B2.jpg" class="d-block w-100" alt="B2">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/B3.jpg" class="d-block w-100" alt="B3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+
+    <hr>
+
+    <br>
+
+    <div class="row" style="margin-left: 1rem">
+
+        <div class="col-md-6">
+            <br><br><br>
+            <h3>" Welcome to my world! "</h3><br><br>
+            <h5>Some of my thoughts about Travelling, Adventure and Vacation..</h5><br>
+            <p> 'Travelling' is like 'Getting in touch with yourself'.  
+                Getting away from home gives you the opportunity to reflect on your life.
+                You have the needed time and space to let your mind wander and take stock.
+                Traveling is one of the best ways to learn more about yourself.
+                Every day traveling brings a new set of issues and opportunities.
+                The way you handle those also gives you insight into who you are.
+                You’ll come home knowing yourself better, and with a fresh perspective on what you want out of life.
+                The experience will change your life.
+            </p>
+            <br>
+            <p>'Adventure' helps to 'Expand Your Mind'.
+                While it may sound cliche, going on an adventure really does expand your mind.
+                Once you decide to let the adventures begin, you become more adaptable and open in new environments.
+                Whether it’s tasting a funky new dish or going zip lining through a jungle, small and large adventurous
+                acts lead to personal growth.
+                You’ll become eager to try new things, without letting fear or doubt hold you back. Adventuring not only
+                expands your mind by building up your bravery, but is also an opportunity to grow and learn.
+                New environments and cultures are packed full of meaningful life lessons that you might not be exposed
+                to in your everyday life.
+                Adventures expand the way we see and interact with the world.
+                Not to mention you gain the added bonus of collecting different perspectives on life like you would
+                souvenirs!
+                Experiencing the world through a new adventure is like getting a new lens for your camera, or if you’re
+                not a camera enthusiast, it’s like getting a brand new pair of glasses.
+                Your perspectives will broaden and shift, which is one of the greatest gifts of adventuring!
+            </p>
+            <br>
+            <p>According to neuroscientists, when we travel, we rewire our brains.
+                This is because new experiences are the key to building new neural pathways in the brain.
+                By rewiring your brain, you become more creative and accepting of new ideas.
+                This is why 'Vacation' makes you 'happy'.
+            </p>
+        </div>
+
+        <div class="col-md-6">
+            <img src="Images/me.jpg" class="card-img-top" style="width: 40rem" alt="...">
+        </div>
+
+    </div>
+
+    <br>
+    <hr>
+
+    <button type="submit" class="btn btn-primary" onclick="hello()" style="margin-left:2rem">Click</button>
+
+    <br><br>
+
+    <script>
+        function hello() {
+            alert("Welcome To My Page");
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

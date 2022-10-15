@@ -1,0 +1,10 @@
+body { 
+    padding-top: 70px;
+}
+.form {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color:powderblue;
+	font-size:180%;
+	padding:50px;
+}
